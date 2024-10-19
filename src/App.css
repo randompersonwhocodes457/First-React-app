@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
+h1{
+    font-family:  "Edu AU VIC WA NT Dots", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}
