@@ -3,4 +3,57 @@
 h1{
     font-family:  "Edu AU VIC WA NT Dots", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: bolder;
+    text-align: center;
+}
+
+img{
+    display: inline;
+    max-width: 350px;
+    min-width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#app{
+    background-color: white;
+    color: black;
+    max-width: 820px;
+}
+
+#gallery{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+#about ul{
+    list-style-type: none;
+}
+
+#about ul li::before {
+    color: grey;
+    content: "—"; 
+    padding-right: 0.5rem; 
+}
+
+#app > *{
+    padding: 20px;
 }
